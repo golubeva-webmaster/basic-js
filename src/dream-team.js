@@ -17,6 +17,7 @@ module.exports = function createDreamTeam(members) {
 
       if(arrLetters.length > 0){
         let res = arrLetters.sort().join('');
+//        if (res)
         return res;
       }
       else
